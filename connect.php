@@ -1,5 +1,5 @@
 <?php
-	$connect = new mysqli("127.0.0.1:3303", "root", "root", "med_zentr");
+	$connect = new mysqli("", "", "", "");
 	$connect->set_charset("utf8");
 
 	if($connect->connect_error)
